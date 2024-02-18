@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent-a-Car-.Net.csproj": {}
+    "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent-a-Car-.Net.csproj": {
+    "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent-a-Car-.Net.csproj",
-        "projectName": "Rent-a-Car-.Net",
-        "projectPath": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent-a-Car-.Net.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
+        "projectName": "Rent_A_Car_.Net",
+        "projectPath": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\obj\\",
         "projectStyle": "PackageReference",
