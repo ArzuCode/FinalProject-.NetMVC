@@ -11,5 +11,15 @@ namespace Rent_a_Car_.Net.DAL
         {
 
         }
+
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<CarImage> CarImages { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
+        public DbSet<Bio> Bios { get; set; }
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<About> About { get; set; }
+
     }
 }
