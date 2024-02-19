@@ -1,32 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Rent_a_Car_.Net.Models;
+using System;
 using System.Diagnostics;
+using Rent_a_Car_.Net.DAL;
+using Rent_a_Car_.Net.ViewModels;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Rent_a_Car_.Net.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            HomeVM home = new HomeVM();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            home.Cars = await _context.Cars
+                .Where(c => c.isDeleted == false)
+                .Include(c => c.Brand)
+                .Include(c => c.CarImages)
+                .Include(c => c.Color).Take(6).ToListAsync();
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(home);
         }
     }
 }
