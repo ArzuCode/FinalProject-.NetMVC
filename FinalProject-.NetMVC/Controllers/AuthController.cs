@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Rent_a_Car_.Net.Models;
 using System;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
+//using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 using Allup.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authorization;
@@ -17,7 +17,7 @@ using Rent_a_Car_.Net.Services;
 using System.IO;
 using Microsoft.AspNetCore.Authentication;
 
-namespace CarRental.Controllers
+namespace Rent_a_Car_.Net.Controllers
 {
     public class AuthController : Controller
     {
