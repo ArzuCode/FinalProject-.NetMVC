@@ -1,0 +1,95 @@
+﻿@model Bio
+
+
+<!-- FOOTER -->
+     <footer id="footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Baş ofis</h2>
+                              </div>
+                              <address>
+                                   <p>@Model.Location</p>
+                              </address>
+
+                              <ul class="social-icon">
+                                   <li><a href="https://www.facebook.com/" class="icon-facebook" attr="facebook icon"></a></li>
+                                   <li><a href="https://twitter.com/" class="icon-twitter"></a></li>
+                                   <li><a href="https://www.instagram.com/" class="icon-instagram"></a></li>
+                              </ul>
+
+                              <div class="copyright-text"> 
+                                   <p>Müəllif hüququ &copy; 2024 Rent A Car</p>
+                                   @*<p>Müəllif: <a href="https://www.linkedin.com/in/arzu-mahmudov-6a3a41285/">Arzu Mahmudov</a></p>*@
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Əlaqə</h2>
+                              </div>
+                              <address>
+                                   <a href="tel:@Model.Contact">@Model.Contact</a>
+                                   <p><a href="mailto:@Model.Email">@Model.Email</a></p>
+                              </address>
+
+                              <div class="footer_menu">
+                                   <h2>Keçidlər</h2>
+                                   <ul>
+                                        <li><a asp-action="index" asp-controller="home">Əsas səhifə</a></li>
+                                        <li><a asp-action="index" asp-controller="about">Haqqımızda</a></li>
+                                        <li><a href="https://www.iubenda.com/privacy-policy/98812034" 
+                                            class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " 
+                                            title="Privacy Policy ">Məxfilik Siyasəti</a>
+                                        </li>
+                                        <li><a asp-action="index" asp-controller="contact">Əlaqə</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <div class="footer-info newsletter-form">
+                              <div class="section-title">
+                                   <h2>Baş ofis ünvanımız</h2>
+                              </div>
+                              <div>
+                                   <iframe 
+                                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4284901456303!2d49.85175681489335!3d40.377194965967796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1sen!2s!4v1665601629999!5m2!1sen!2s" 
+                                  width="400" 
+                                  height="250" 
+                                  style="border:0;" 
+                                  allowfullscreen="" 
+                                  loading="lazy" 
+                                  referrerpolicy="no-referrer-when-downgrade">
+                              </iframe>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+
+     @section Scripts{
+         <script type="text/javascript">
+             (function (w,d) 
+             {var loader = function () 
+                 {var s = d.createElement("script"), 
+                 tag = d.getElementsByTagName("script")[0]; 
+                 s.src="https://cdn.iubenda.com/iubenda.js"; 
+                 tag.parentNode.insertBefore(s,tag);}; 
+                 if(w.addEventListener)
+                 {w.addEventListener("load", loader, false);}
+                 else if(w.attachEvent)
+                 {w.attachEvent("onload", loader);}
+                 else
+                 {w.onload = loader;}})(window, document);
+         </script>
+     }

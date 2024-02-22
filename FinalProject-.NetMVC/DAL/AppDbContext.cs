@@ -21,5 +21,19 @@ namespace Rent_a_Car_.Net.DAL
         public DbSet<Team> Teams { get; set; }
         public DbSet<About> About { get; set; }
 
+
+
+         #region Data Seeding
+         protected override void OnModelCreating(ModelBuilder builder)
+         {
+            base.OnModelCreating(builder);
+            
+           
+        
+         }
+         #endregion
+
+
+
     }
 }
