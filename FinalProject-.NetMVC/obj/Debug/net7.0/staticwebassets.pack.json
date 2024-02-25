@@ -5,6 +5,1018 @@
       "PackagePath": "staticwebassets\\Rent_A_Car_.Net.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\mediaelementplayer.css",
+      "PackagePath": "staticwebassets\\assets\\css\\mediaelementplayer.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\account.png",
+      "PackagePath": "staticwebassets\\assets\\images\\account.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\bmw.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\bmw.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\chevrolet.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\chevrolet.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\hyundai.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\hyundai.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\kia.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\kia.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\lexus.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\lexus.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\mercedes.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\mercedes.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\mitsubishi.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\mitsubishi.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\nissan.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\nissan.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\tesla.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\tesla.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\brand\\toyota.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\toyota.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\bmw-m5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\bmw-m5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\bmw-x5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\bmw-x5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\chevrolet-aveo-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\chevrolet-aveo-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-accent-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-accent-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-azera-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-azera-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-elantra-2015.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-elantra-2015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-h1-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-h1-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-ix35-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-ix35-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-sonata-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-sonata-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\hyundai-sonata-2017.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\hyundai-sonata-2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\kia-cerato-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\kia-cerato-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\kia-optima-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\kia-optima-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\kia-rio-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\kia-rio-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\kia-sorento-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\kia-sorento-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\kia-sportage-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\kia-sportage-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\lexus-570-2012.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\lexus-570-2012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mercedes-g-class-2012.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mercedes-g-class-2012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mercedes-g-class-2015.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mercedes-g-class-2015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mercedes-s-class-2016.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mercedes-s-class-2016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mercedes-v-class-2016.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mercedes-v-class-2016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mitsubishi-L200-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mitsubishi-L200-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\mitsubishi-pajero.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\mitsubishi-pajero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\nissan-leaf-2017.png",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\nissan-leaf-2017.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\nissan-navara-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\nissan-navara-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\nissan-sunny-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\nissan-sunny-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\tesla-3-2017.png",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\tesla-3-2017.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\tesla-s-2018.png",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\tesla-s-2018.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\tesla-x-2016.png",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\tesla-x-2016.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\toyota-camry-2013.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\toyota-camry-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\toyota-land-cruiser-2014.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\toyota-land-cruiser-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\toyota-land-cruiser-2018.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\toyota-land-cruiser-2018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\toyota-prado-2015.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\toyota-prado-2015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car\\toyota-prado-2018.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car\\toyota-prado-2018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\car_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\car_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\curology-A9CUBfntOFQ-unsplash.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\curology-A9CUBfntOFQ-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\e0787a0d-6a69-45d7-9f1b-633da03b76aefiat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\e0787a0d-6a69-45d7-9f1b-633da03b76aefiat.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\electric-img.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\electric-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\feature_01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature_01.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\feature_02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature_02.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\hero_1_a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero_1_a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\hero_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\hero_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\img_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Arzu.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Arzu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Maarif.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Maarif.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Murad.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Murad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Pasha.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Pasha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Riyad.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Riyad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\member\\Sahin.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member\\Sahin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\person_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\person_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\post_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\subscribe-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\subscribe-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\user\\225e3238-6e01-4a42-bc86-dd7171dcd178rashid.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\225e3238-6e01-4a42-bc86-dd7171dcd178rashid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\user\\5d2786f3-f905-4ad0-b21e-83a74a1f2d6cmurad.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\5d2786f3-f905-4ad0-b21e-83a74a1f2d6cmurad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\user\\b56e7f48-7165-4b58-86d0-2759bf4a86d9rashid.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\b56e7f48-7165-4b58-86d0-2759bf4a86d9rashid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\assets\\js\\checkout.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\mediaelement-and-player.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mediaelement-and-player.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\js\\typed.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typed.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\payment\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\payment\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\images\\amex.jpg",
+      "PackagePath": "staticwebassets\\assets\\payment\\images\\amex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\images\\mastercard.jpg",
+      "PackagePath": "staticwebassets\\assets\\payment\\images\\mastercard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\images\\visa.jpg",
+      "PackagePath": "staticwebassets\\assets\\payment\\images\\visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\js\\jquery.payform.min.js",
+      "PackagePath": "staticwebassets\\assets\\payment\\js\\jquery.payform.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\payment\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\payment\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\_site-base.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_site-base.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\_site-blocks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_site-blocks.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\_site-navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_site-navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -37,22 +1049,6 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
@@ -67,54 +1063,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -133,22 +1081,6 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
@@ -163,22 +1095,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",

@@ -898,6 +898,105 @@ namespace Rent_a_Car_.Net.DAL
 
 
             #endregion
+
+            #region Bio
+            builder.Entity<Bio>().HasData(
+               new Bio
+               {
+                   Id = 1,
+                   ImageUrl = "logo.png",
+                   Location = "Nizami küçəsi 203B, AF Business House, 2-ci mərtəbə, Baku 1000, Azerbaijan",
+                   Contact = "+994 77 710 19 98",
+                   Email = "arzuem@code.edu.az",
+                   WorkTime = "Bazar ertəsi-Şənbə 9:00pm - 5:00pm Bazar:Bağlıdır",
+               });
+
+
+            #endregion
+
+            #region About
+            builder.Entity<About>().HasData(
+               new About
+               {
+                   Id = 1,
+                   Title = "BİZ KİMİK",
+                   HeaderDesc = "Əziz şəhərimizin qonaqları sizi “Rent A Car” şirkəti olaraq salamlayırıq.",
+                   Desc = "Rent A Car şirkəti yeni yaranmasına baxmayaraq, ölkədə ən böyük avtomobil qarajına sahibdir. Bizim bütün avtomobillərimiz  bütün standartlara cavab verən, ekoloji tələblərə riayət edən yeni avtomobillərdir. Bizim şirkət avtomobil icarəsi bazarına yeni daxil olduğu üçün sərfəli qiymətlərlə digər şirkətləri üstələyir. Kirayə maşın bazarında çox şirkətin olmasına baxmayaraq keyfiyyətli və təhlükəsiz şirkət azlıq təşkil edir.",
+                   ImageUrl = "hero_2.jpg",
+               });
+
+
+            #endregion
+
+            #region Team
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 1,
+                   Name = "Arzu",
+                   Surname = "Mahmudov",
+                   Position = "CEO",
+                   ImageUrl = "Arzu.jpg",
+                   CreatedAt = DateTime.Now
+               });
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 2,
+                   Name = "Murad",
+                   Surname = "Qarayev",
+                   Position = "CFO",
+                   ImageUrl = "Murad.jpg",
+                   CreatedAt = DateTime.Now
+
+               });
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 3,
+                   Name = "Riyad",
+                   Surname = "Nağıyev",
+                   Position = "Developer",
+                   ImageUrl = "Riyad.jpg",
+                   CreatedAt = DateTime.Now
+
+               });
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 4,
+                   Name = "Paşa",
+                   Surname = "Bayramov",
+                   Position = "Mütəxəssis",
+                   ImageUrl = "Pasha.jpg",
+                   CreatedAt = DateTime.Now
+
+               });
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 5,
+                   Name = "Maarif",
+                   Surname = "Aliyev",
+                   Position = "Mütəxəssis",
+                   ImageUrl = "Maarif.jpg",
+                   CreatedAt = DateTime.Now
+
+               });
+            builder.Entity<Team>().HasData(
+               new Team
+               {
+                   Id = 6,
+                   Name = "Şahin",
+                   Surname = "Cəbrayılov",
+                   Position = "Mütəxəssis",
+                   ImageUrl = "Sahin.jpg",
+                   CreatedAt = DateTime.Now
+
+               });
+
+
+            #endregion
         }
         #endregion
 
