@@ -1,0 +1,130 @@
+﻿@model Payment
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Credit Card Validation Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/assets/payment/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/payment/css/demo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="priceForm">
+                    <div class="heading">
+                        <img src="~/assets/images/logo.png" style="width:85px;height:60px;"/>
+                        <h1>Rent A Car</h1>
+                    </div>
+                    <div class="payment">
+                        <h3>İcarə məlumatları</h3>
+                        <hr style="color: floralwhite;"/>
+                        <h4>Avtomobil: <span>@ViewBag.Car.Brand.Name @ViewBag.Car.Name</span> </h4>
+                        <h4>Icarə müddəti: <span id="dayCount"></span></h4>
+                        <h4>Günlük qiymət: <span>&#8380; @ViewBag.Car.DailyPrice</span></h4>
+                        <h4>Cəm qiymət: <span>&#8380;<span id="totalPrice" style="margin-left:0px;"></span></span></h4>
+
+                        
+                        <input value="@ViewBag.Rental.RentDate" id="startDate" hidden/>
+                        <input value="@ViewBag.Rental.ReturnDate" id="endDate" hidden/>
+                        <input value="@ViewBag.Car.DailyPrice" id="dailyPrice" hidden/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="creditCardForm">
+                    <div class="heading">
+                        <h1>Kart məlumatlarını daxil edin</h1>
+                    </div>
+                    <div class="payment">
+                        <form asp-action="pay" asp-controller="rental" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group owner">
+                                <label asp-for="CardHolder">Kart sahibi</label>
+                                <input asp-for="CardHolder" type="text" class="form-control" id="owner">
+                                <span asp-validation-for="CardHolder" class="text-danger"></span>
+                            </div>
+                            <div class="form-group CVV">
+                                <label asp-for="Cvc" for="cvv">CVC</label>
+                                <input asp-for="Cvc" type="text" class="form-control" id="cvv">
+                                <span asp-validation-for="Cvc" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" id="card-number-field">
+                                <label asp-for="CardNumber" for="cardNumber">Kart nömrəsi</label>
+                                <input asp-for="CardNumber" type="text" class="form-control" id="cardNumber">
+                                <span asp-validation-for="CardNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" id="card-number-field">
+                                <input asp-for="Value" type="text" class="form-control" id="value" hidden>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label asp-for="Month" class="control-label">Ay</label>
+                                            <input asp-for="Month" class="form-control" placeholder="MM" />
+                                            <span asp-validation-for="Month" class="text-danger"></span>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label asp-for="Year" class="control-label">İl</label>
+                                            <input asp-for="Year" class="form-control" placeholder="YYYY" />
+                                            <span asp-validation-for="Year" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding-left: 75px;">
+                                    <div class="form-group" id="credit_cards" style="display:flex; flex-direction:row;">
+                                        <img src="~/assets/payment/images/visa.jpg" id="visa">
+                                        <img src="~/assets/payment/images/mastercard.jpg" id="mastercard">
+                                        <img src="~/assets/payment/images/amex.jpg" id="amex">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="pay-now">
+                                <button type="submit" class="btn btn-default" id="confirm-purchase">Ödəniş et</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/assets/payment/js/jquery.payform.min.js" charset="utf-8"></script>
+    <script src="~/assets/payment/js/script.js"></script>
+</body>
+
+     <script> 
+
+         let startDate = document.getElementById("startDate")
+         let endDate = document.getElementById("endDate")
+         let dailyPrice = document.getElementById("dailyPrice")
+         let dayCount = document.getElementById("dayCount")
+         let totalPrice = document.getElementById("totalPrice")
+         let value = document.getElementById("value")
+
+
+             let date1= new Date(startDate.value)
+             let date2= new Date(endDate.value)
+             
+
+             const diffTime = Math.abs(date2 - date1);
+             const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+             dayCount.innerHTML=diffDays
+             totalPrice.innerHTML=diffDays*dailyPrice.value
+             value.value=diffDays*dailyPrice.value*100
+     </script>
+</html>
