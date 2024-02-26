@@ -1,0 +1,183 @@
+﻿@model HeaderVM
+
+
+<!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="~/assets/images/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: 1.8; margin-left:-6px;">
+      <span class="brand-text font-weight-light">HW Car Rental</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          @if (User.Identity.IsAuthenticated)
+         {
+             if (Model.User.ImageUrl!=null)
+             {
+                <div class="image">
+                  <img src="~/assets/images/user/@Model.User.ImageUrl" class="img-circle elevation-2" alt="User Image">
+                </div>
+             }
+             else
+             {
+                 <div class="image">
+                  <img src="~/assets/images/account.png" class="img-circle elevation-2" alt="User Image">
+                </div>
+             }
+           
+        <div class="info">
+          <a href="#" class="d-block">@Model.User.Name @Model.User.Surname</a>
+        </div>
+         }
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a asp-controller="dashboard" asp-action="index" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-tag"></i>
+              <p>
+                Markalar
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a asp-controller="brand" asp-action="index" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Aktiv markalar</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a asp-controller="brand" asp-action="removedbrands" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Deaktiv markalar</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-palette"></i>
+              <p>
+                Rənglər
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a asp-controller="color" asp-action="index" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Aktiv rənglər</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a asp-controller="color" asp-action="removedcolors" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Deaktiv rənglər</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-car"></i>
+              <p>
+                Avtomobillər
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a asp-controller="car" asp-action="index" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Aktiv avtomobillər</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a asp-controller="car" asp-action="removedcars" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Deaktiv avtomobillər</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-person"></i>
+              <p>
+                Komanda üzvləri
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a asp-controller="team" asp-action="index" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Aktiv üzvlər</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a asp-controller="team" asp-action="removedmembers" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Deaktiv üzvlər</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a asp-controller="bio" asp-action="update" class="nav-link">
+              <i class="nav-icon fa-solid fa-location"></i>
+              <p>
+                Şirkət məlumatları
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a asp-controller="about" asp-action="update" class="nav-link">
+              <i class="nav-icon fa-solid fa-address-card"></i>
+              <p>
+                Şirkət haqqında
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a asp-controller="rental" asp-action="index" class="nav-link">
+              <i class="nav-icon fa-solid fa-cart-plus"></i>
+              <p>
+                Avtomobil icarələri
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
