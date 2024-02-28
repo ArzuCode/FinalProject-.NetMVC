@@ -1,0 +1,107 @@
+﻿@using static Rent_a_Car_.Net.Models.Car
+@model Car
+
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <div>
+              <div class="card-header bg-light">
+                Avtomobil əlavə et
+              </div>
+              <div class="card-body bg-white">
+                <form method="post" enctype="multipart/form-data">
+                      <span class="text-danger fw-bold mb-3">@Html.ValidationMessage("Error")</span>
+                      <input type="hidden" name="Id" value="@Model.Id">
+                      <div class="form-group">
+                            <label asp-for="Name" for="simpleinput">Model adı</label>
+                            <input asp-for="Name" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="ModelYear" for="simpleinput">İl</label>
+                            <input asp-for="ModelYear" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="ModelYear"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="DailyPrice" for="simpleinput">Günlük qiymət</label>
+                            <input asp-for="DailyPrice" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="DailyPrice"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="PassengerCount" for="simpleinput">Sərnişin sayı</label>
+                            <input asp-for="PassengerCount" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="PassengerCount"></span>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                    <label asp-for="Brand" for="custom-select">Marka</label>
+                                    <select asp-items="@ViewBag.Brands" asp-for="BrandId" class="custom-select" id="custom-select">
+                                        <option selected>Marka seçin</option>
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="Brand"></span>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                    <label asp-for="Color" for="custom-select">Rəng</label>
+                                    <select asp-items="@ViewBag.Colors" asp-for="ColorId" class="custom-select" id="custom-select">
+                                        <option selected>Rəng seçin</option>
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="Color"></span>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                    <label asp-for="FuelType" for="custom-select">Yanacaq növü</label>
+                                    <select  asp-for="FuelType" asp-items="Html.GetEnumSelectList<FuelTypes>()" class="custom-select" id="custom-select">
+                                        <option selected>Yanacaq növünü seçin</option>
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="FuelType"></span>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                    <label asp-for="TransmissionType" for="custom-select">Ötürücü növü</label>
+                                    <select asp-for="TransmissionType" asp-items="Html.GetEnumSelectList<TransmissionTypes>()"   class="custom-select" id="custom-select">
+                                        <option selected>Ötürücü növünü seçin</option>
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="TransmissionType"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row" style="justify-content:space-between;align-items:center;">
+                        <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Images" for="customFile"></label>
+                                    <div class="custom-file">
+                                        <input asp-for="Images" type="file" class="custom-file-input" id="customFile" multiple>
+                                        <label class="custom-file-label" for="customFile"></label>
+                                    </div>
+                                    <span class="text-danger" asp-validation-for="Images"></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div style="text-align:center" class="mt-5">
+                        <button type="submit" class="btn btn-success me-2">Əlavə et</button>
+                        <a class="btn btn-dark" asp-action="index">Geri qayıt</a>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div><!-- /.col --
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+  </div>
+ </div>
+

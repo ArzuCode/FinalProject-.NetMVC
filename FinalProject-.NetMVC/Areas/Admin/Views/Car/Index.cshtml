@@ -1,0 +1,113 @@
+﻿@model List<Car>
+
+
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    <style>
+                        #tbody tr:nth-child(2){
+                            text-align:center;
+                        }
+
+                        .zoom {
+                          transition: transform .2s;
+                          margin: 0 auto;
+                        }
+
+                        .zoom:hover {
+                          -ms-transform: scale(1.5); /* IE 9 */
+                          -webkit-transform: scale(1.5); /* Safari 3-8 */
+                          transform: scale(1.5); 
+                        }
+    </style>
+
+}
+
+<!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Avtomobillər</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+              <li class="breadcrumb-item active">Avtomobillər</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                @*Create button*@
+                 <p class="card-description pt-2">
+                     <a class="btn btn-success" asp-action="create">Avtomobil əlavə et</a>
+                 </p>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example1" class="table table-bordered">
+                  <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th>Marka</th>
+                    <th>Yaradılma tarixi</th>
+                    <th>Əməliyyatlar</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                      @foreach (var item in Model)
+                     {
+                        if (@item.isDeleted==false)
+                        {
+                           <tr id="tbody">
+                             <td>@item.Id</td>
+                             <td>
+                                 <div class="zoom">
+                                     <img class="mx-2" width="70" height="50" src="~/assets/images/car/@item.CarImages.Find(i=>i.IsMain==true).ImageUrl"/>
+                                     @item.Brand.Name @item.Name
+                                 </div>
+                             </td>
+                             <td>@String.Format("{0:dd/MM/yyyy}",item.CreatedAt).ToString()</td>
+                             <td class="text-center">
+                                 <a asp-action="update" asp-route-id="@item.Id" class="btn btn-sm btn-warning btn-rounded"><i class="fa fa-pen"></i></a>
+                                 <a asp-action="remove" asp-route-id="@item.Id" class="btn btn-sm btn-danger btn-rounded"><i class="fa fa-xmark"></i></a>
+                              </td>
+                           </tr>
+                        }
+                     }
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+
+
+@section Scripts{
+    
+   
+}

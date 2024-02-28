@@ -1,0 +1,92 @@
+﻿@model Bio
+
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Şirkət məlumatları</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+              <li class="breadcrumb-item active">Şirkət məlumatları</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <div>
+              <div class="card-header bg-light">
+                Şirkət məlumatlarının yenilənməsi
+              </div>
+              <div class="card-body bg-white">
+                <form method="post" enctype="multipart/form-data">
+                      <span class="text-danger fw-bold mb-3">@Html.ValidationMessage("Error")</span>
+                      <input type="hidden" name="Id" value="@Model.Id">
+                      <div class="form-group">
+                            <label asp-for="Location" for="simpleinput">Adres</label>
+                            <input asp-for="Location" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="Location"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="Contact" for="simpleinput">Telefon</label>
+                            <input asp-for="Contact" type="tel" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="Contact"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="Email" for="simpleinput">E-poçt</label>
+                            <input asp-for="Email" type="email" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="Email"></span>
+                      </div>
+                      <div class="form-group">
+                            <label asp-for="WorkTime" for="simpleinput">İş vaxtları</label>
+                            <input asp-for="WorkTime" type="text" id="simpleinput" class="form-control" autocomplete="off">
+                            <span class="text-danger" asp-validation-for="WorkTime"></span>
+                      </div>
+                    <div class="row">
+                          <div class="col-md-3">
+                              <div class="card" style="width: 13rem;">
+                                <img class="card-img-top" src="~/assets/images/@Model.ImageUrl" alt="Card image cap">
+                              </div>
+                          </div>
+                    </div>
+                      <div class="row" style="justify-content:space-between;align-items:center;">
+                        <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Image" for="customFile">Şəkil əlavə et</label>
+                                    <div class="custom-file">
+                                        <input asp-for="Image" type="file" class="custom-file-input" id="customFile" multiple>
+                                        <label class="custom-file-label" for="customFile"></label>
+                                    </div>
+                                    <span class="text-danger" asp-validation-for="Image"></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div style="text-align:center" class="mt-5">
+                        <button type="submit" class="btn btn-success me-2">Yadda saxla</button>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div><!-- /.col --
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+  </div>
+ </div>
+
+
