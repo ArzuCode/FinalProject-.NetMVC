@@ -1,0 +1,65 @@
+﻿@model Brand
+
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="wrapper" >
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Brend redaktə et</h1>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card ">
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form method="post" enctype="multipart/form-data">
+                <div class="card-body">
+                  <div class="single-form mb-2" style="display:flex; flex-direction:column;">
+                    <input asp-for="Name" type="text class="form-control" id="simpleinput" placeholder="Ad daxil edin" autocomplete="off">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <input asp-for="Image" type="file" class="custom-file-input" id="exampleInputFile">
+                        <label asp-for="Image" class="custom-file-label" for="exampleInputFile"></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-success">Redaktə et</button>
+                  <a asp-action="index" class=" btn btn-dark">Geri qayıt</a>
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+</div>
+
