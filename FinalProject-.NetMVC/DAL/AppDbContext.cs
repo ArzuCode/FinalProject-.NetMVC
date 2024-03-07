@@ -7,6 +7,11 @@ namespace Rent_a_Car_.Net.DAL
 {
     public class AppDbContext : IdentityDbContext<User>
     {
+
+        public AppDbContext()
+        {
+            
+        }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
