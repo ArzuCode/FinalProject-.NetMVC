@@ -33,6 +33,10 @@ namespace Rent_a_Car_.Net
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentityCore<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>() // Rollerin eklenmesi
+    .AddEntityFrameworkStores<AppDbContext>();
+
             services.AddControllersWithViews();
             services.ConfigureApplicationCookie(options => {
 

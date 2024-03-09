@@ -137,10 +137,10 @@ namespace Rent_a_Car_.Net.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginVM loginVM, string ReturnUrl)
         {
-            if (!ModelState.IsValid) return View();
+            //if (!ModelState.IsValid) return View();
 
             User appUser = await _userManager.FindByEmailAsync(loginVM.Email);
-            if (appUser == null)
+            if (appUser == null)    
             {
                 ModelState.AddModelError("", "Error occured");
                 return View(loginVM);

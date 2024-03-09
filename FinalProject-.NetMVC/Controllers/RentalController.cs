@@ -73,20 +73,25 @@ namespace Rent_a_Car_.Net.Controllers
             if (car == null) return NotFound();
 
             List<Rental> rental = await _context.Rentals.Where(r=>r.CarId==carId).ToListAsync();
-            foreach (var item in rental)
-            {
-                if (item != null)
-                {
-                    var checkDate = startDate.InRange(item.RentDate, item.ReturnDate);
-                    if (checkDate)
-                    {
-                        string error = $"Avtomobil {item.RentDate.ToString("MM/dd/yyyy")}'dən {item.ReturnDate.ToString("MM/dd/yyyy")}'dək icarədədir";
-                        
-                        return RedirectToAction("index", new {id=item.CarId, error=error});
-                    }
-                }
 
+            if (rental.Count() > 0)
+            {
+                foreach (var item in rental)
+                {
+                    if (item != null)
+                    {
+                        var checkDate = startDate.InRange(item.RentDate, item.ReturnDate);
+                        if (checkDate)
+                        {
+                            string error = $"Avtomobil {item.RentDate.ToString("MM/dd/yyyy")}'dən {item.ReturnDate.ToString("MM/dd/yyyy")}'dək icarədədir";
+
+                            return RedirectToAction("index", new { id = item.CarId, error = error });
+                        }
+                    }
+
+                }
             }
+            
 
 
             Rental newRental = new Rental();
@@ -97,14 +102,11 @@ namespace Rent_a_Car_.Net.Controllers
             newRental.RentDate = startDate;
             newRental.ReturnDate = endDate;
             newRental.CreatedAt = DateTime.Now;
+            newRental.InvoiceNo = random.Next(1, 99).ToString() + newRental.Id.ToString();
             
             
 
             await _context.AddAsync(newRental);
-            await _context.SaveChangesAsync();
-
-            newRental.InvoiceNo = random.Next(1, 99).ToString() + newRental.Id.ToString();
-
             await _context.SaveChangesAsync();
 
             return RedirectToAction("payment", new { id = newRental.Id});
@@ -146,24 +148,27 @@ namespace Rent_a_Car_.Net.Controllers
         }
 
         [Route("pay")]
+        [HttpPost]
         public async Task<dynamic> Pay(Payment payment)
         {
-            if (!ModelState.IsValid) return RedirectToAction("payment");
+            //if (!ModelState.IsValid) return RedirectToAction("payment");
 
-            
 
-            
 
-            var result = await MakePayment.PayAsync(payment);
 
-            if (result == "Success")
-            {
-                return RedirectToAction("invoice");
-            }
-            else
-            {
-                return RedirectToAction("Error", result);
-            }
+
+            //var result = await MakePayment.PayAsync(payment);
+
+            //if (result == "Success")
+            //{
+            //    return RedirectToAction("invoice");
+            //}
+            //else
+            //{
+            //    return RedirectToAction("Error", result);
+            //}
+
+            return RedirectToAction("Index", "Home");
             
         }
 

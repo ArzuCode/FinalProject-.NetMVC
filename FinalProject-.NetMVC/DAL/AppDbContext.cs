@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
+using Microsoft.AspNetCore.Identity;
+using System.Reflection.Emit;
 
 namespace Rent_a_Car_.Net.DAL
 {
@@ -1002,6 +1004,31 @@ namespace Rent_a_Car_.Net.DAL
 
 
             #endregion
+
+            builder.Entity<IdentityRole>().HasData(
+                new IdentityRole { Id = "1", Name = "Admin", NormalizedName = "ADMIN" }
+                
+            );
+
+            var hasher = new PasswordHasher<IdentityUser>();
+            builder.Entity<IdentityUser>().HasData(
+                new IdentityUser
+                {
+                    Id = "1",
+                    UserName = "admin@admin.com",
+                    NormalizedUserName = "ADMIN@ADMIN.COM",
+                    Email = "admin@admin.com",
+                    NormalizedEmail = "ADMIN@ADMIN.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = hasher.HashPassword(null, "Admin123.")
+                }
+                );
+
+            //Guid guid = new Guid();
+            //builder.Entity<IdentityUserRole<string>>().HasData(
+            //    new IdentityUserRole<string> { UserId = guid.ToString(), RoleId = "1" }
+            //    // Diğer kullanıcıların rollerini buraya ekleyebilirsiniz...
+            //); ;
         }
         #endregion
 
