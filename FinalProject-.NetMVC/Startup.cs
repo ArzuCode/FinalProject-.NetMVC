@@ -34,7 +34,7 @@ namespace Rent_a_Car_.Net
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityCore<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddRoles<IdentityRole>() // Rollerin eklenmesi
+    .AddRoles<IdentityRole>() 
     .AddEntityFrameworkStores<AppDbContext>();
 
             services.AddControllersWithViews();
@@ -77,6 +77,9 @@ namespace Rent_a_Car_.Net
             {
                 opt.ClientId = "346849385340-d32e5fbidashvj8u2gq1it88q00g082j.apps.googleusercontent.com";
                 opt.ClientSecret = "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";
+
+                //opt.ClientId = "1008467426477 - ngtge4890oarntjundbs923vqql51q4o.apps.googleusercontent.com";
+                //opt.ClientSecret = "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";
             })
             ;
         }

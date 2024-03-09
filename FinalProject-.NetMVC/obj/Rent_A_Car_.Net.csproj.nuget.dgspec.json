@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mert\\source\\repos\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {}
+    "C:\\Users\\user\\Desktop\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mert\\source\\repos\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {
+    "C:\\Users\\user\\Desktop\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mert\\source\\repos\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
         "projectName": "Rent_A_Car_.Net",
-        "projectPath": "C:\\Users\\Mert\\source\\repos\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
-        "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mert\\source\\repos\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\Rent_A_Car_.Net.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\FinalProject-.NetMVC\\FinalProject-.NetMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -125,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

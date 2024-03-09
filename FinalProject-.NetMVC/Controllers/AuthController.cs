@@ -62,7 +62,8 @@ namespace Rent_a_Car_.Net.Controllers
                 Surname = registerVM.Surname,
                 Email = registerVM.Email,
                 UserName = registerVM.Username,
-                PhoneNumber = registerVM.PhoneNumber
+                PhoneNumber = registerVM.PhoneNumber,
+                EmailConfirmed = true
 
             };
 
