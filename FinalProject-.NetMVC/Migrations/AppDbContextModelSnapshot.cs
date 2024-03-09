@@ -274,7 +274,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(5920),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6288),
                             ImageUrl = "mercedes.png",
                             Name = "Mercedes",
                             isDeleted = false
@@ -282,7 +282,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6004),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6360),
                             ImageUrl = "hyundai.png",
                             Name = "Hyundai",
                             isDeleted = false
@@ -290,7 +290,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6023),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6380),
                             ImageUrl = "toyota.png",
                             Name = "Toyota",
                             isDeleted = false
@@ -298,7 +298,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6040),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6398),
                             ImageUrl = "bmw.png",
                             Name = "BMW",
                             isDeleted = false
@@ -306,7 +306,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6058),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6415),
                             ImageUrl = "nissan.png",
                             Name = "Nissan",
                             isDeleted = false
@@ -314,7 +314,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6079),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6443),
                             ImageUrl = "mitsubishi.png",
                             Name = "Mitsubishi",
                             isDeleted = false
@@ -322,7 +322,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6163),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6460),
                             ImageUrl = "kia.png",
                             Name = "Kia",
                             isDeleted = false
@@ -330,7 +330,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6180),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6477),
                             ImageUrl = "chevrolet.png",
                             Name = "Chevrolet",
                             isDeleted = false
@@ -338,7 +338,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6198),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6497),
                             ImageUrl = "lexus.png",
                             Name = "Lexus",
                             isDeleted = false
@@ -346,7 +346,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6220),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6519),
                             ImageUrl = "tesla.png",
                             Name = "Tesla",
                             isDeleted = false
@@ -412,7 +412,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 1,
                             BrandId = 4,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6384),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6684),
                             DailyPrice = 250.0,
                             FuelType = 1,
                             ModelYear = 2012,
@@ -426,7 +426,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 2,
                             BrandId = 3,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6411),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6707),
                             DailyPrice = 120.0,
                             FuelType = 2,
                             ModelYear = 2015,
@@ -440,7 +440,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 3,
                             BrandId = 8,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6428),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6788),
                             DailyPrice = 50.0,
                             FuelType = 3,
                             ModelYear = 2013,
@@ -454,7 +454,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 4,
                             BrandId = 2,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6443),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6807),
                             DailyPrice = 50.0,
                             FuelType = 2,
                             ModelYear = 2014,
@@ -468,7 +468,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 5,
                             BrandId = 2,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6461),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6824),
                             DailyPrice = 85.0,
                             FuelType = 1,
                             ModelYear = 2013,
@@ -482,7 +482,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 6,
                             BrandId = 2,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6482),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6841),
                             DailyPrice = 55.0,
                             FuelType = 1,
                             ModelYear = 2015,
@@ -496,7 +496,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 7,
                             BrandId = 2,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6496),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6857),
                             DailyPrice = 140.0,
                             FuelType = 2,
                             ModelYear = 2014,
@@ -510,7 +510,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 8,
                             BrandId = 2,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6512),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6874),
                             DailyPrice = 65.0,
                             FuelType = 1,
                             ModelYear = 2014,
@@ -524,7 +524,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 9,
                             BrandId = 2,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6526),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6888),
                             DailyPrice = 70.0,
                             FuelType = 2,
                             ModelYear = 2013,
@@ -538,7 +538,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 10,
                             BrandId = 2,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6544),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6906),
                             DailyPrice = 75.0,
                             FuelType = 1,
                             ModelYear = 2017,
@@ -552,7 +552,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 11,
                             BrandId = 7,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6560),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6921),
                             DailyPrice = 55.0,
                             FuelType = 1,
                             ModelYear = 2014,
@@ -566,7 +566,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 12,
                             BrandId = 7,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6711),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6941),
                             DailyPrice = 75.0,
                             FuelType = 1,
                             ModelYear = 2014,
@@ -580,7 +580,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 13,
                             BrandId = 7,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6729),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6956),
                             DailyPrice = 50.0,
                             FuelType = 2,
                             ModelYear = 2014,
@@ -594,7 +594,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 14,
                             BrandId = 7,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6751),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6972),
                             DailyPrice = 90.0,
                             FuelType = 2,
                             ModelYear = 2013,
@@ -608,7 +608,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 15,
                             BrandId = 7,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6767),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6987),
                             DailyPrice = 65.0,
                             FuelType = 2,
                             ModelYear = 2014,
@@ -622,7 +622,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 16,
                             BrandId = 9,
                             ColorId = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7151),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7299),
                             DailyPrice = 200.0,
                             FuelType = 1,
                             ModelYear = 2012,
@@ -636,7 +636,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 17,
                             BrandId = 1,
                             ColorId = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7168),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7317),
                             DailyPrice = 350.0,
                             FuelType = 1,
                             ModelYear = 2012,
@@ -650,7 +650,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 18,
                             BrandId = 1,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7187),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7337),
                             DailyPrice = 400.0,
                             FuelType = 1,
                             ModelYear = 2015,
@@ -664,7 +664,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 19,
                             BrandId = 1,
                             ColorId = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7271),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7352),
                             DailyPrice = 350.0,
                             FuelType = 2,
                             ModelYear = 2016,
@@ -678,7 +678,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 20,
                             BrandId = 1,
                             ColorId = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7286),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7367),
                             DailyPrice = 450.0,
                             FuelType = 2,
                             ModelYear = 2016,
@@ -692,7 +692,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 21,
                             BrandId = 6,
                             ColorId = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7301),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7387),
                             DailyPrice = 80.0,
                             FuelType = 2,
                             ModelYear = 2013,
@@ -706,7 +706,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 22,
                             BrandId = 6,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7316),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7402),
                             DailyPrice = 85.0,
                             FuelType = 1,
                             ModelYear = 2013,
@@ -720,7 +720,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 23,
                             BrandId = 5,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7331),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7418),
                             DailyPrice = 90.0,
                             FuelType = 2,
                             ModelYear = 2013,
@@ -734,7 +734,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 24,
                             BrandId = 5,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7347),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7532),
                             DailyPrice = 50.0,
                             FuelType = 1,
                             ModelYear = 2014,
@@ -748,7 +748,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 25,
                             BrandId = 3,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7363),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7544),
                             DailyPrice = 90.0,
                             FuelType = 1,
                             ModelYear = 2013,
@@ -762,7 +762,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 26,
                             BrandId = 3,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7379),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7556),
                             DailyPrice = 160.0,
                             FuelType = 1,
                             ModelYear = 2014,
@@ -776,7 +776,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 27,
                             BrandId = 3,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7395),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7568),
                             DailyPrice = 300.0,
                             FuelType = 1,
                             ModelYear = 2018,
@@ -790,7 +790,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 28,
                             BrandId = 4,
                             ColorId = 3,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7410),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7580),
                             DailyPrice = 200.0,
                             FuelType = 1,
                             ModelYear = 2011,
@@ -804,7 +804,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 29,
                             BrandId = 3,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7428),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7592),
                             DailyPrice = 200.0,
                             FuelType = 1,
                             ModelYear = 2018,
@@ -818,7 +818,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 30,
                             BrandId = 10,
                             ColorId = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7444),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7603),
                             DailyPrice = 250.0,
                             FuelType = 4,
                             ModelYear = 2016,
@@ -832,7 +832,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 31,
                             BrandId = 10,
                             ColorId = 5,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7461),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7617),
                             DailyPrice = 270.0,
                             FuelType = 4,
                             ModelYear = 2018,
@@ -846,7 +846,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 32,
                             BrandId = 10,
                             ColorId = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7478),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7631),
                             DailyPrice = 250.0,
                             FuelType = 4,
                             ModelYear = 2017,
@@ -860,7 +860,7 @@ namespace Rent_a_Car_.Net.Migrations
                             Id = 33,
                             BrandId = 5,
                             ColorId = 6,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(7557),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(7643),
                             DailyPrice = 70.0,
                             FuelType = 4,
                             ModelYear = 2017,
@@ -1206,42 +1206,42 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6256),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6557),
                             Name = "Qara",
                             isDeleted = false
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6277),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6586),
                             Name = "Ağ",
                             isDeleted = false
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6293),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6603),
                             Name = "Qəhvəyi",
                             isDeleted = false
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6309),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6618),
                             Name = "Boz",
                             isDeleted = false
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6325),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6635),
                             Name = "Qırmızı",
                             isDeleted = false
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(6344),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(6654),
                             Name = "Mavi",
                             isDeleted = false
                         });
@@ -1340,7 +1340,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8280),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8268),
                             ImageUrl = "Arzu.jpg",
                             Name = "Arzu",
                             Position = "CEO",
@@ -1350,7 +1350,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8305),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8283),
                             ImageUrl = "Murad.jpg",
                             Name = "Murad",
                             Position = "CFO",
@@ -1360,7 +1360,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8325),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8296),
                             ImageUrl = "Riyad.jpg",
                             Name = "Riyad",
                             Position = "Developer",
@@ -1370,7 +1370,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8342),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8309),
                             ImageUrl = "Pasha.jpg",
                             Name = "Paşa",
                             Position = "Mütəxəssis",
@@ -1380,7 +1380,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8358),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8321),
                             ImageUrl = "Maarif.jpg",
                             Name = "Maarif",
                             Position = "Mütəxəssis",
@@ -1390,7 +1390,7 @@ namespace Rent_a_Car_.Net.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2024, 3, 8, 1, 36, 27, 602, DateTimeKind.Local).AddTicks(8376),
+                            CreatedAt = new DateTime(2024, 3, 9, 11, 41, 8, 990, DateTimeKind.Local).AddTicks(8335),
                             ImageUrl = "Sahin.jpg",
                             Name = "Şahin",
                             Position = "Mütəxəssis",

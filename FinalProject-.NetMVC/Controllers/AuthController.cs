@@ -87,6 +87,15 @@ namespace Rent_a_Car_.Net.Controllers
             var emailResult = emailService.SendEmailConfirmation(user.Email, "Hot Wheel | Car Rental - E-poçt təsdiqi",
                         "Zəhmət olmasa e-poçtunuzu təsdiq etmək üçün:" + " " + url);
 
+            var role = "CUSTOMER";
+            var roleExists = await _roleManager.RoleExistsAsync(role);
+
+            if (!roleExists)
+            {
+                await _roleManager.CreateAsync(new IdentityRole(role));
+            }
+            var userId = await _userManager.FindByIdAsync(user.Id);
+            await _userManager.AddToRoleAsync(user, "CUSTOMER");
 
             await _userManager.AddToRoleAsync(user, Roles.Customer.ToString());
 

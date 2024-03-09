@@ -8677,10 +8677,6 @@
       "PackagePath": "staticwebassets\\admin\\plugins\\uplot\\uPlot.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\css\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\aos.css",
       "PackagePath": "staticwebassets\\assets\\css\\aos.css"
     },
@@ -8739,10 +8735,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\fonts\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\flaticon\\backup.txt",
@@ -8823,10 +8815,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\fonts\\icomoon\\style.css",
       "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\images\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\images\\account.png",
@@ -9309,10 +9297,6 @@
       "PackagePath": "staticwebassets\\assets\\payment\\js\\script.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\scss\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\_site-base.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\_site-base.scss"
     },
@@ -9323,10 +9307,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\_site-navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\_site-navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\Rent_A_Car\\FinalProject-.NetMVC\\wwwroot\\assets\\scss\\bootstrap\\_alert.scss",
